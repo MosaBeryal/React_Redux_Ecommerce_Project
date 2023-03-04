@@ -1,0 +1,133 @@
+
+  .container {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .item1 {
+    
+    height: 330px;
+    margin: 20px;
+    word-wrap: break-word;
+  }
+  .title{
+    
+      /* width: 300px; */
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+    
+  }
+  
+  .description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 300px;
+  }
+  
+  .center {
+    text-align: center;
+    font-family: century gothic;
+    font-size: 40px;
+  }
+  .name {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .Form {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 300px;
+  
+    height: auto;
+    margin: auto;
+  }
+  
+  .input {
+    color: white;
+    padding-top: 20px;
+  }
+  #submitBtn {
+    padding-left: 60px;
+  }
+  .title {
+    padding-left: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+  }
+  .Deletebtn {
+    float: right;
+    margin-top: 80px;
+    margin-right: 20px;
+    border-radius: 6px;
+    width: 60px;
+    height: 30px;
+    color: Red;
+    background-color: #2f2f32;
+  }
+  .Deletebtn:hover {
+    border: 2px solid rgb(0, 157, 255);
+    
+  }
+  .email {
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: -80px;
+    margin-top: -20px;
+  }
+  .enterDetail {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: wheat;
+  }
+  .formSubmit{
+    margin-left: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .formSubmit:hover {
+    border: 1px solid rgb(0, 157, 255);
+  }
+  
+  
+  /* Dynamic external css */
+  .input.invalid input{
+    border-color: rgb(200, 30, 30);
+    background-color: rgb(169, 75, 75);
+  
+  }
+  .input.invalid textarea{
+    border-color: rgb(200, 30, 30);
+    background-color: rgb(169, 75, 75);
+  
+  }
+  .search{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .search Button{
+    background-color: #D9D9D9;
+    border: 0;
+    border-radius: 10%;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 60px;
+  }
+  .search Button:hover{
+    background-color: #9999ff;
+    color: white;
+  }
+  

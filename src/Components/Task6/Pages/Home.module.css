@@ -1,0 +1,38 @@
+.Jumbotron{
+    display: inline-flex;
+    width: 90vw;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-top: 120px;
+    
+}
+.description{
+    width: 600px;
+    
+}
+.image{
+    width: 600px;
+    height: 400px;
+   
+    
+}
+
+.social{
+    display: flex;
+    width: 150px;
+    justify-content:space-between;
+    margin-top: 50px;
+    
+}
+.social > a{
+    font-size:25px;
+}
+.name{
+    font-size: 12px;
+    opacity: 0.5;
+    letter-spacing: 5px;
+}
+.intro{
+    font-size: 20px;
+}
+
